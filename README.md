@@ -36,12 +36,5 @@ DSA/
    - Implementation code
    - Usage examples
 
-## Contributing
-Feel free to contribute by:
-1. Adding new problem solutions
-2. Improving existing solutions
-3. Adding more detailed explanations
-4. Suggesting optimizations
-
 ## License
 This project is open source and available under the MIT License. 
