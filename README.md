@@ -1,6 +1,6 @@
 # Data Structures and Algorithms (DSA) Simple Approach
 
-This repository contains simple solutions to various Data Structures and Algorithms problems. Each problem is organized in its own directory with a detailed explanation and implementation.
+This repository contains simple solutions to various Data Structures and Algorithms problems. Each problem is organized in its own directory with a detailed explanation and implementation. For basic understanding of time complexity and space complexity can be found in this (article)[https://medium.com/@mr.zawmyowin.physics/understanding-time-and-space-complexity-in-a-simple-way-bd3ddf49c677]
 
 ## Problems
 
