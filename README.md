@@ -1,6 +1,6 @@
-# Data Structures and Algorithms (DSA) Solutions
+# Data Structures and Algorithms (DSA) Simple Approach
 
-This repository contains solutions to various Data Structures and Algorithms problems. Each problem is organized in its own directory with a detailed explanation and implementation.
+This repository contains simple solutions to various Data Structures and Algorithms problems. Each problem is organized in its own directory with a detailed explanation and implementation.
 
 ## Problems
 
