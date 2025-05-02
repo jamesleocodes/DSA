@@ -1,26 +1,38 @@
-# Data Structures and Algorithms (DSA) Simple Approach
+# Data Structures and Algorithms (DSA) Solutions
 
-This repository contains simple solutions to various Data Structures and Algorithms problems. Each problem is organized in its own directory with a detailed explanation and implementation. For basic understanding of time complexity and space complexity can be found in this [article.](https://medium.com/@mr.zawmyowin.physics/understanding-time-and-space-complexity-in-a-simple-way-bd3ddf49c677)
+This repository contains solutions to various Data Structures and Algorithms problems. Each problem is organized in its own directory with a detailed explanation and implementation. For basic understanding of time complexity and space complexity can be found in this [article.](https://medium.com/@mr.zawmyowin.physics/understanding-time-and-space-complexity-in-a-simple-way-bd3ddf49c677)
 
 ## Problems
 
-### 1. Reverse String
-- **Problem**: Reverse a string in-place with O(1) extra memory
-- **Directory**: `reverse_string/`
-- **Solution**: Two-Pointer Technique
-- **Time Complexity**: O(n)
-- **Space Complexity**: O(1)
+### Two-Pointer Technique Problems
+Problems that can be efficiently solved using the two-pointer technique:
 
-[View Solution](reverse_string/README.md)
+1. **Reverse String**
+   - **Problem**: Reverse a string in-place with O(1) extra memory
+   - **Directory**: `reverse_string/`
+   - **Solution**: Two-Pointer Technique
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1)
 
-### 2. Squares of a Sorted Array
-- **Problem**: Given an integer array sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order
-- **Directory**: `squares_of_a_sorted-array/`
-- **Solution**: Two-Pointer Technique
-- **Time Complexity**: O(n)
-- **Space Complexity**: O(n)
+   [View Solution](reverse_string/README.md)
 
-[View Solution](squares_of_a_sorted-array/README.md)
+2. **Squares of a Sorted Array**
+   - **Problem**: Given an integer array sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order
+   - **Directory**: `squares_of_a_sorted-array/`
+   - **Solution**: Two-Pointer Technique
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(n)
+
+   [View Solution](squares_of_a_sorted-array/README.md)
+
+3. **Remove Duplicates from Sorted Array**
+   - **Problem**: Remove duplicates from a sorted array in-place and return the number of unique elements
+   - **Directory**: `remove_duplicate/`
+   - **Solution**: Two-Pointer Technique
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1)
+
+   [View Solution](remove_duplicate/README.md)
 
 ## Repository Structure
 ```
@@ -30,6 +42,8 @@ DSA/
 │   └── README.md
 ├── squares_of_a_sorted-array/
 │   ├── sq_sort_array.ipynb
+│   └── README.md
+├── remove_duplicate/
 │   └── README.md
 └── README.md
 ```
