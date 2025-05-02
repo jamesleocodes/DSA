@@ -13,11 +13,23 @@ This repository contains simple solutions to various Data Structures and Algorit
 
 [View Solution](reverse_string/README.md)
 
+### 2. Squares of a Sorted Array
+- **Problem**: Given an integer array sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order
+- **Directory**: `squares_of_a_sorted-array/`
+- **Solution**: Two-Pointer Technique
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(n)
+
+[View Solution](squares_of_a_sorted-array/README.md)
+
 ## Repository Structure
 ```
 DSA/
 ├── reverse_string/
 │   ├── rs.ipynb
+│   └── README.md
+├── squares_of_a_sorted-array/
+│   ├── sq_sort_array.ipynb
 │   └── README.md
 └── README.md
 ```
