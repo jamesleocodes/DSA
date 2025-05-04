@@ -34,6 +34,15 @@ Problems that can be efficiently solved using the two-pointer technique:
 
    [View Solution](remove_duplicate/README.md)
 
+4. **Remove Element**
+   - **Problem**: Remove all occurrences of a value from an array in-place
+   - **Directory**: `remove_elements/`
+   - **Solution**: Two-Pointer Technique
+   - **Time Complexity**: O(n)
+   - **Space Complexity**: O(1)
+
+   [View Solution](remove_elements/README.md)
+
 ## Repository Structure
 ```
 DSA/
@@ -44,6 +53,8 @@ DSA/
 │   ├── sq_sort_array.ipynb
 │   └── README.md
 ├── remove_duplicate/
+│   └── README.md
+├── remove_elements/
 │   └── README.md
 └── README.md
 ```
