@@ -1,77 +1,61 @@
-# Data Structures and Algorithms (DSA) Solutions
+# Data Structures and Algorithms Practice
 
-This repository contains solutions to various Data Structures and Algorithms problems. Each problem is organized in its own directory with a detailed explanation and implementation. For basic understanding of time complexity and space complexity can be found in this [article.](https://medium.com/@mr.zawmyowin.physics/understanding-time-and-space-complexity-in-a-simple-way-bd3ddf49c677)
+This repository contains solutions to various Data Structures and Algorithms problems, organized by topics and difficulty levels.
 
 ## Problems
 
-### Two-Pointer Technique Problems
-Problems that can be efficiently solved using the two-pointer technique:
+### Array Problems
 
-1. **Reverse String**
-   - **Problem**: Reverse a string in-place with O(1) extra memory
-   - **Directory**: `reverse_string/`
-   - **Solution**: Two-Pointer Technique
-   - **Time Complexity**: O(n)
-   - **Space Complexity**: O(1)
+#### 1. Add Two Integers
+- **Problem**: Add two integers without using the + or - operators
+- **Approach**: Using bitwise operations
+- **Time Complexity**: O(1)
+- **Space Complexity**: O(1)
+- **Link**: [Add Two Integers](add_two_integers/README.md)
 
-   [View Solution](reverse_string/README.md)
+#### 2. Remove Duplicates from Sorted Array
+- **Problem**: Remove duplicates from a sorted array in-place
+- **Approach**: Two-pointer technique
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+- **Link**: [Remove Duplicates](remove_duplicates_from_sorted_array/README.md)
 
-2. **Squares of a Sorted Array**
-   - **Problem**: Given an integer array sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order
-   - **Directory**: `squares_of_a_sorted-array/`
-   - **Solution**: Two-Pointer Technique
-   - **Time Complexity**: O(n)
-   - **Space Complexity**: O(n)
+#### 3. Remove Element
+- **Problem**: Remove all occurrences of a value from an array in-place
+- **Approach**: Two-pointer technique
+- **Time Complexity**: O(n)
+- **Space Complexity**: O(1)
+- **Link**: [Remove Element](remove_elements/README.md)
 
-   [View Solution](squares_of_a_sorted-array/README.md)
+#### 4. Find the Index of First Occurrence
+- **Problem**: Find the first occurrence of a substring in a string
+- **Approach**: Two-pointer technique
+- **Time Complexity**: 
+  - Worst Case: O(m*n)
+  - Best Case: O(n)
+  - Average Case: O(m)
+- **Space Complexity**: O(1)
+- **Link**: [Find First Occurrence](find_the_index_first_occurence/README.md)
 
-3. **Remove Duplicates from Sorted Array**
-   - **Problem**: Remove duplicates from a sorted array in-place and return the number of unique elements
-   - **Directory**: `remove_duplicate/`
-   - **Solution**: Two-Pointer Technique
-   - **Time Complexity**: O(n)
-   - **Space Complexity**: O(1)
+## Topics Covered
+- Arrays
+- Strings
+- Two-Pointer Technique
+- Bitwise Operations
+- In-place Algorithms
 
-   [View Solution](remove_duplicate/README.md)
+## Getting Started
+1. Clone the repository
+2. Navigate to the specific problem directory
+3. Read the README.md for problem details and solution approach
+4. Check the implementation in the respective files
 
-4. **Remove Element**
-   - **Problem**: Remove all occurrences of a value from an array in-place
-   - **Directory**: `remove_elements/`
-   - **Solution**: Two-Pointer Technique
-   - **Time Complexity**: O(n)
-   - **Space Complexity**: O(1)
-
-   [View Solution](remove_elements/README.md)
-
-## Repository Structure
-```
-DSA/
-├── reverse_string/
-│   ├── rs.ipynb
-│   └── README.md
-├── squares_of_a_sorted-array/
-│   ├── sq_sort_array.ipynb
-│   └── README.md
-├── remove_duplicate/
-│   └── README.md
-├── remove_elements/
-│   └── README.md
-└── README.md
-```
-
-## How to Use This Repository
-1. Each problem has its own directory
-2. Inside each directory you'll find:
-   - Implementation file(s)
-   - Detailed README explaining the problem and solution
-3. The README for each problem includes:
-   - Problem description
-   - Examples
-   - Constraints
-   - Solution approach
-   - Time and Space complexity analysis
-   - Implementation code
-   - Usage examples
+## Contributing
+Feel free to contribute by:
+1. Adding new problems
+2. Improving existing solutions
+3. Adding more test cases
+4. Enhancing documentation
 
 ## License
 This project is open source and available under the MIT License. 
