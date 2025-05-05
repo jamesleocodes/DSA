@@ -37,12 +37,20 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - **Space Complexity**: O(1)
 - **Link**: [Find First Occurrence](find_the_index_first_occurence/README.md)
 
+#### 5. 3Sum
+- **Problem**: Find all unique triplets that sum to zero
+- **Approach**: Two-pointer technique with sorting
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(1) or O(n) depending on sorting
+- **Link**: [3Sum](3sum/README.md)
+
 ## Topics Covered
 - Arrays
 - Strings
 - Two-Pointer Technique
 - Bitwise Operations
 - In-place Algorithms
+- Sorting
 
 ## Getting Started
 1. Clone the repository
