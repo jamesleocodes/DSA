@@ -44,6 +44,13 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - **Space Complexity**: O(1) or O(n) depending on sorting
 - **Link**: [3Sum](3sum/README.md)
 
+#### 6. Merge Sorted Array
+- **Problem**: Merge two sorted arrays into one sorted array
+- **Approach**: Two-pointer technique
+- **Time Complexity**: O(m + n)
+- **Space Complexity**: O(1)
+- **Link**: [Merge Sorted Array](merge_sorted_array/README.md)
+
 ## Topics Covered
 - Arrays
 - Strings
