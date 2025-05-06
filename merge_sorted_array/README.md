@@ -63,6 +63,13 @@ def merge(nums1, m, nums2, n):
             p2 -= 1
         p -= 1
 ```
+## Step by step Exectuioon
+| p1  | p2  | nums1[p1] | nums2[p2] | Condition Check          | Action Taken     | Updated nums1      |
+|-----|-----|-----------|-----------|--------------------------|------------------|--------------------|
+| 2   | 2   | 3         | 6         | nums1[p1] < nums2[p2]   | nums1[5] = 6     | [1,2,3,0,0,6]      |
+| 2   | 1   | 3         | 5         | nums1[p1] < nums2[p2]   | nums1[4] = 5     | [1,2,3,0,5,6]      |
+| 2   | 0   | 3         | 2         | nums1[p1] > nums2[p2]   | nums1[3] = 3     | [1,2,3,3,5,6]      |
+| 1   | 0   | 2         | 2         | nums1[p1] ≤ nums2[p2]   | nums1[2] = 2     | [1,2,2,3,5,6]      |
 
 ## Complexity Analysis
 
